@@ -1,0 +1,84 @@
+# Copyright (C) 2013 TODO
+# This file is distributed under the same license as the TODO package.
+msgid ""
+msgstr ""
+"Project-Id-Version: TODO 1.0.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/plugin-name\n"
+"POT-Creation-Date: 2013-10-16 23:20+0100\n"
+"PO-Revision-Date: 2013-10-16 23:20+0100\n"
+"Last-Translator: FULL NAME <email@example.com>\n"
+"Language-Team: LANGUAGE <translations@example.com >\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: __;_e;_n;_x;esc_html_e;esc_html__;esc_attr_e;"
+"esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_x:1,2c;_n:1,2\n"
+"X-Poedit-Basepath: ../\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: class-todo-widget.php:259
+msgid "Todo Tasks"
+msgstr ""
+
+#: class-todo-widget.php:291
+msgid "Content must not empty."
+msgstr ""
+
+#: class-todo-widget.php:310
+msgid "Need an array of ids in order to remove todos."
+msgstr ""
+
+#: class-todo-widget.php:326
+msgid "Reordering must be done on a set of todos."
+msgstr ""
+
+#: class-todo-widget.php:352
+msgid "You have to provide a valid id."
+msgstr ""
+
+#: class-todo-widget.php:383
+msgid "Shoo! Go away!"
+msgstr ""
+
+#: views/todo-widget.php:4
+msgid "Create a new Todo"
+msgstr ""
+
+#: views/todo-widget.php:7
+msgid "Add a Todo"
+msgstr ""
+
+#: views/todo-widget.php:15
+msgid "Remove Completed Todos"
+msgstr ""
+
+#: views/todo-widget.php:30
+msgid "Confirm Deletion"
+msgstr ""
+
+#: views/todo-widget.php:32 views/todo-widget.php:36
+msgid "Cancel"
+msgstr ""
+
+#: views/todo-widget.php:34
+msgid "Save"
+msgstr ""
+
+#: views/todo-widget.php:38
+msgid "Edit"
+msgstr ""
+
+#: views/todo-widget.php:40
+msgid "Delete"
+msgstr ""
+
+#~ msgid "Page Title"
+#~ msgstr "Translated page title"
+
+#~ msgid "Menu Text"
+#~ msgstr "Translated menu text"
+
+#~ msgid "Settings"
+#~ msgstr "Settings in english"

@@ -1,0 +1,143 @@
+/*Reset*/
+#todo_list input[type="checkbox"] {
+    vertical-align: baseline;
+}
+#todo_template {
+    display: none;
+}
+/* Handle stuff */
+
+.todo-handle {
+    font-weight: bold;
+    cursor: move;
+    cursor: -webkit-grab;
+    cursor: -moz-grab;
+    letter-spacing: .1em;
+}
+
+/* Action Buttons stuff */
+
+li.editing .todo-element:not(.todo-group-edit),
+li.deleting .todo-element:not(.todo-group-delete),
+li:not(.editing):not(.deleting) .todo-element:not(.todo-group-default){
+    display: none;
+    visibility: hidden;
+}
+
+/*Place a border in between visible elements*/
+.todo-button:visible:nth-child(n+2){
+    border-left: 1px solid black !important;
+}
+
+.todo-button{
+    color: #21759b;
+    cursor: pointer;
+    outline: 0;
+    padding: 0;
+}
+.todo-button:hover{
+    color: #e66f00;
+}
+
+.todo-delete-confirm, .todo-delete {
+    color: #990000;
+}
+.todo-save {
+    color: green;
+}
+
+/*Todo row styling*/
+#todo_list li {
+    background-color: #f9f9f9;
+    border-radius: 2px;
+    border: 1px solid #DDD;
+    transition: box-shadow .2s, background-color .2s;
+    width: 100%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 8px 8px;
+}
+
+
+.todo-done{
+    background-color: #E3EDDA !important;
+}
+.todo-restored{
+    background-color: #F5ECCB !important;
+}
+.todo-added{
+    background-color: #CBE2F2 !important;
+}
+.todo-deleted {
+    background-color: #FAD7D7 !important;
+}
+.todo-problem {
+    background-color: red;
+}
+
+.cell {
+    white-space: nowrap;
+    padding: 0px 8px;
+    display: table-cell;
+}
+.new-todo .cell {
+    padding: 0;
+}
+#add_todo {
+    margin-left: 50px;
+}
+.todo-content-container {
+    padding-left: 0px;
+}
+.todo-content{
+    padding: 4px 8px;
+}
+
+.todo-button, li:not(.editing) .todo-content{
+    border-color: transparent;
+    background:inherit;
+}
+.todo-content-container, .todo-content, .new-todo .cell, .widget-row{
+    margin-left:0;
+    width: 100%;
+}
+#todo_list .todo-checkbox-container{
+    vertical-align: middle;
+    margin-right: 12px;
+}
+#todo_list .todo-checkbox {
+    /*margin-top: 3px;*/
+}
+
+/*Sortable plugin styling*/
+.sortable-dragging {
+    background-color: green !important;
+    border: 1px solid blue !important;
+    visibility: visible !important;
+    display: block !important;
+}
+.ui-sortable-placeholder{
+    visibility: visible !important;
+    border: 1px dashed #ddd !important;
+}
+
+.ui-sortable-helper{
+    box-shadow: 0px 0px 15px rgba(50, 50, 50, .2);
+}
+
+/**
+* :active prevents cursor from staying in the grabbing state
+* when idle on top of the handle just after releasing
+*/
+.ui-sortable-helper .todo-handle:active{
+    cursor: -webkit-grabbing;
+    cursor: -moz-grabbing;
+}
+
+/*New todo form*/
+#new_todo {
+    width: 100%;
+}
+#new_todo input[type=text] {
+    width: 100%;
+}
